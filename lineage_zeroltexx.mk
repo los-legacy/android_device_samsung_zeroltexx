@@ -11,5 +11,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="zeroltexx" \
     TARGET_DEVICE="zerolte"
 
+# Device Maintainer
+PRODUCT_PROPERTY_OVERRIDES += ro.los.maintainer="BenLue"
+
 PRODUCT_NAME := lineage_zeroltexx
 PRODUCT_DEVICE := zeroltexx
